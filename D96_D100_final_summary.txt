@@ -1,0 +1,18 @@
+D96-D100 FINAL BATCH SUMMARY
+==================================================
+
+Emails analyzed: D96, D97, D98, D99, D100
+Detection signals per email: [17, 26, 25, 18, 23]
+Average signals: 21.8
+Risk levels: ['VERY HIGH', 'VERY HIGH', 'VERY HIGH', 'VERY HIGH', 'VERY HIGH']
+
+Individual email details:
+  D96: 17 signals, VERY HIGH risk
+  D97: 26 signals, VERY HIGH risk
+  D98: 25 signals, VERY HIGH risk
+  D99: 18 signals, VERY HIGH risk
+  D100: 23 signals, VERY HIGH risk
+
+COMPLETION STATUS:
+✓ All 100 emails analyzed
+✓ Ready for final decision making

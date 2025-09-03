@@ -1,0 +1,61 @@
+EMAIL CLASSIFICATION DATA ANALYSIS: D91-D95
+===========================================
+
+SUMMARY:
+Successfully extracted 5 email records (D91, D92, D93, D94, D95) from 001.xlsx containing 68 detection signals each.
+
+KEY FINDINGS:
+
+1. EMAIL D91:
+   - Risk Profile: HIGH (24 active signals, score: 18.64)
+   - Top Concerns: Very high exfiltration behavior (0.94), suspicious string entropy (4.0)
+   - Authentication: Mixed (SPF softfail, DKIM neutral, DMARC pass)
+   - Contains 4 links, 3 malicious components detected
+
+2. EMAIL D92:
+   - Risk Profile: MEDIUM (19 active signals, score: 11.00)
+   - Top Concerns: 5 malicious components detected, QR code present
+   - Authentication: POOR (SPF fail, DKIM fail, DMARC pass)
+   - Has unsubscribe link, classified as "none" request type
+
+3. EMAIL D93:
+   - Risk Profile: MEDIUM-LOW (17 active signals, score: 6.55)
+   - Top Concerns: Sensitive data request, high urgency keywords (0.63), spam score (0.48)
+   - Authentication: MIXED (SPF pass, DKIM none, DMARC fail)
+   - Contains 2 links
+
+4. EMAIL D94:
+   - Risk Profile: HIGHEST (25 active signals, score: 18.66)
+   - Top Concerns: Exploit pattern detected, 4 IOC matches, very high suspicious entropy (6.0)
+   - Authentication: MIXED (SPF pass, DKIM fail, DMARC pass)
+   - Meeting request type, very high content spam score (0.96)
+
+5. EMAIL D95:
+   - Risk Profile: MEDIUM-HIGH (23 active signals, score: 13.46)
+   - Top Concerns: High behavioral sandbox score (0.57), suspicious entropy (5.0)
+   - Authentication: POOR (SPF pass, DKIM neutral, DMARC none)
+   - Contains 2 links
+
+DETECTION SIGNAL CATEGORIES:
+- Sender analysis: 6 signals (reputation, spoofing, temp email likelihood)
+- Domain analysis: 3 signals (reputation, morphing detection)
+- URL analysis: 7 signals (reputation, redirects, visual similarity)
+- Attachment analysis: 5 signals (malicious files, executables)
+- Behavioral analysis: 2 signals (sandbox execution, AMSI)
+- Email authentication: 5 signals (SPF, DKIM, DMARC, TLS, DNS)
+
+RISK RANKING (highest to lowest):
+1. D94 - Exploit detected, meeting request with very high spam indicators
+2. D91 - High exfiltration behavior, multiple suspicious components
+3. D95 - High behavioral scores, poor authentication
+4. D92 - Multiple malicious components, failed authentication
+5. D93 - Sensitive data request, mixed authentication issues
+
+FILES CREATED:
+- /home/u3/email_data/check2/extracted_D91_D95_data.csv (Raw data)
+- /home/u3/email_data/check2/extracted_D91_D95_data.xlsx (Excel format)
+- /home/u3/email_data/check2/D91_D95_analysis_report.txt (Detailed analysis)
+- /home/u3/email_data/check2/complete_D91_D95_report.txt (Complete signal matrix)
+- /home/u3/email_data/check2/D91_D95_final_analysis.txt (This summary)
+
+All emails show various suspicious indicators and should be subject to further security review.

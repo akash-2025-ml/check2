@@ -1,0 +1,161 @@
+================================================================================
+EXTRACTED EMAIL DATA: D91, D92, D93, D94, D95
+================================================================================
+Dataset contains 5 emails with 68 detection signals
+
+Email ID: D91
+  - Active signals (non-zero): 24 out of 68
+  - Total numeric signal score: 18.644361
+  - Top numeric signals:
+    * max_suspicious_string_entropy_score: 4.000000
+    * total_links_detected: 4.000000
+    * total_components_detected_malicious: 3.000000
+    * reverse_dns_valid: 1.000000
+    * token_validation_success: 1.000000
+
+Email ID: D92
+  - Active signals (non-zero): 19 out of 68
+  - Total numeric signal score: 10.995019
+  - Top numeric signals:
+    * total_components_detected_malicious: 5.000000
+    * domain_tech_stack_match_score: 1.000000
+    * unsubscribe_link_present: 1.000000
+    * reverse_dns_valid: 1.000000
+    * token_validation_success: 1.000000
+
+Email ID: D93
+  - Active signals (non-zero): 17 out of 68
+  - Total numeric signal score: 6.551364
+  - Top numeric signals:
+    * total_links_detected: 2.000000
+    * domain_tech_stack_match_score: 1.000000
+    * reverse_dns_valid: 1.000000
+    * token_validation_success: 1.000000
+    * urgency_keywords_present: 0.625688
+
+Email ID: D94
+  - Active signals (non-zero): 25 out of 68
+  - Total numeric signal score: 18.659052
+  - Top numeric signals:
+    * max_suspicious_string_entropy_score: 6.000000
+    * total_ioc_count: 4.000000
+    * url_Count: 2.000000
+    * any_exploit_pattern_detected: 1.000000
+    * domain_tech_stack_match_score: 1.000000
+
+Email ID: D95
+  - Active signals (non-zero): 23 out of 68
+  - Total numeric signal score: 13.458567
+  - Top numeric signals:
+    * max_suspicious_string_entropy_score: 5.000000
+    * total_links_detected: 2.000000
+    * domain_tech_stack_match_score: 1.000000
+    * reverse_dns_valid: 1.000000
+    * token_validation_success: 1.000000
+
+================================================================================
+DETAILED SIGNAL ANALYSIS
+================================================================================
+
+Detailed Signal Values (showing all non-zero values):
+--------------------------------------------------------------------------------
+
+D91:
+  sender_domain_reputation_score: 0.035037
+  sender_temp_email_likelihood: 0.104974
+  max_metadata_suspicious_score: 0.385122
+  max_behavioral_sandbox_score: 0.178442
+  max_amsi_suspicion_score: 0.037420
+  max_exfiltration_behavior_score: 0.942947
+  max_suspicious_string_entropy_score: 4.000000
+  max_sandbox_execution_time: 0.000000
+  unique_parent_process_names: "[""]" (text)
+  return_path_reputation_score: 0.960823
+  reply_path_reputation_Score: 0.001916
+  smtp_ip_geo: 0.008040
+  smtp_ip_asn: 0.327493
+  smtp_ip_reputation_score: 0.336859
+  domain_tech_stack_match_score: 0.500000
+  ... and 16 more signals
+
+D92:
+  sender_domain_reputation_score: 0.000202
+  sender_temp_email_likelihood: 0.005430
+  unique_parent_process_names: "[""]" (text)
+  return_path_reputation_score: 0.570641
+  reply_path_reputation_Score: 0.000021
+  smtp_ip_geo: 0.020388
+  smtp_ip_asn: 0.001326
+  smtp_ip_reputation_score: 0.000303
+  domain_tech_stack_match_score: 1.000000
+  sender_name_similarity_to_vip: 0.214775
+  urgency_keywords_present: 0.133530
+  request_type: "none" (text)
+  content_spam_score: 0.000018
+  unsubscribe_link_present: 1.000000
+  spf_result: "fail" (text)
+  ... and 11 more signals
+
+D93:
+  sender_domain_reputation_score: 0.250495
+  sender_temp_email_likelihood: 0.001552
+  unique_parent_process_names: "[""]" (text)
+  return_path_reputation_score: 0.000000
+  reply_path_reputation_Score: 0.014765
+  smtp_ip_geo: 0.012450
+  smtp_ip_asn: 0.002388
+  smtp_ip_reputation_score: 0.062083
+  domain_tech_stack_match_score: 1.000000
+  sender_name_similarity_to_vip: 0.000420
+  urgency_keywords_present: 0.625688
+  request_type: "sensitive_data_request" (text)
+  content_spam_score: 0.481261
+  spf_result: "pass" (text)
+  dkim_result: "none" (text)
+  ... and 9 more signals
+
+D94:
+  sender_domain_reputation_score: 0.000000
+  sender_temp_email_likelihood: 0.000000
+  max_metadata_suspicious_score: 0.017946
+  total_ioc_count: 4.000000
+  max_behavioral_sandbox_score: 0.274306
+  max_amsi_suspicion_score: 0.000000
+  max_exfiltration_behavior_score: 0.552052
+  any_exploit_pattern_detected: 1.000000
+  max_suspicious_string_entropy_score: 6.000000
+  max_sandbox_execution_time: 0.000000
+  unique_parent_process_names: "[""]" (text)
+  return_path_reputation_score: 0.000001
+  reply_path_reputation_Score: 0.000004
+  smtp_ip_geo: 0.009970
+  smtp_ip_asn: 0.000000
+  ... and 17 more signals
+
+D95:
+  sender_domain_reputation_score: 0.643931
+  sender_temp_email_likelihood: 0.011497
+  max_metadata_suspicious_score: 0.353773
+  max_behavioral_sandbox_score: 0.567890
+  max_amsi_suspicion_score: 0.000642
+  max_exfiltration_behavior_score: 0.047184
+  max_suspicious_string_entropy_score: 5.000000
+  max_sandbox_execution_time: 0.000000
+  unique_parent_process_names: "[""]" (text)
+  return_path_reputation_score: 0.351446
+  reply_path_reputation_Score: 0.277274
+  smtp_ip_geo: 0.001721
+  smtp_ip_asn: 0.067981
+  smtp_ip_reputation_score: 0.038877
+  domain_tech_stack_match_score: 1.000000
+  ... and 15 more signals
+
+================================================================================
+SUMMARY STATISTICS
+================================================================================
+Total detection signals available: 68
+D91: 24 active signals, total score: 18.644361
+D92: 19 active signals, total score: 10.995019
+D93: 17 active signals, total score: 6.551364
+D94: 25 active signals, total score: 18.659052
+D95: 23 active signals, total score: 13.458567

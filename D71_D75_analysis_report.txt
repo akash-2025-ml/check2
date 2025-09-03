@@ -1,0 +1,234 @@
+=== EMAIL CLASSIFICATION DATA: D71-D75 ANALYSIS ===
+Total emails analyzed: 5
+Total detection signals: 68
+
+=== EMAIL D71 ===
+SENDER SIGNALS:
+  sender_domain_reputation_score: 0.0085899821277841
+  sender_temp_email_likelihood: 0.2462689524831692
+  reply_path_reputation_Score: 0.020544352545438
+  sender_name_similarity_to_vip: 0.0217612770045685
+
+CONTENT SIGNALS:
+  urgency_keywords_present: 0.251292
+  content_spam_score: 6.679846000100466e-08
+
+URL/DOMAIN SIGNALS:
+  domain_tech_stack_match_score: 0.5
+  total_links_detected: 1
+  url_reputation_score: 4.996009571130041e-10
+  url_rendering_behavior_score: 0.0271632262452985
+
+AUTHENTICATION SIGNALS:
+  spf_result: fail
+  dkim_result: policy
+  dmarc_result: fail
+  reverse_dns_valid: 1
+  tls_version: TLS 1.3
+
+OTHER SIGNALS:
+  max_metadata_suspicious_score: 0.1516599697120082
+  max_behavioral_sandbox_score: 5.375650301759109e-05
+  max_amsi_suspicion_score: 0.3350300342847537
+  max_exfiltration_behavior_score: 0.6867814877608723
+  max_suspicious_string_entropy_score: 6
+  max_sandbox_execution_time: 5.334162811223953e-64
+  unique_parent_process_names: [""]
+  return_path_reputation_score: 0.32366664249921
+  smtp_ip_geo: 0.1285982196694839
+  smtp_ip_asn: 0.0028218243458697
+  smtp_ip_reputation_score: 0.0193009793173455
+  request_type: gift_card_request
+  ssl_validity_status: revoked
+  site_visual_similarity_to_known_brand: 7.437763530548867e-08
+  token_validation_success: 1
+
+Total active detection signals: 30
+--------------------------------------------------
+
+=== EMAIL D72 ===
+SENDER SIGNALS:
+  sender_domain_reputation_score: 0.1801552806604413
+  sender_temp_email_likelihood: 1.665538130322127e-29
+  reply_path_reputation_Score: 0.6503247243751415
+  sender_name_similarity_to_vip: 0.0886286901520776
+
+ATTACHMENT SIGNALS:
+  total_embedded_file_count: 2
+
+CONTENT SIGNALS:
+  urgency_keywords_present: 0.7763888
+  content_spam_score: 0.0002164813382002
+
+URL/DOMAIN SIGNALS:
+  domain_tech_stack_match_score: 1.0
+  url_reputation_score: 0.125255637574933
+  url_rendering_behavior_score: 0.0002429416450025
+
+AUTHENTICATION SIGNALS:
+  spf_result: pass
+  dkim_result: pass
+  dmarc_result: none
+  reverse_dns_valid: 1
+  tls_version: TLS 1.1
+
+OTHER SIGNALS:
+  max_metadata_suspicious_score: 8.16231194793896e-06
+  total_ioc_count: 2
+  max_behavioral_sandbox_score: 9.577809139610888e-18
+  max_amsi_suspicion_score: 0.0900379179199636
+  max_exfiltration_behavior_score: 0.5663856418221209
+  max_suspicious_string_entropy_score: 5
+  max_sandbox_execution_time: 1.398882427977686e-42
+  unique_parent_process_names: [""]
+  return_path_reputation_score: 7.294831352372715e-08
+  smtp_ip_geo: 1.068280331686915e-07
+  smtp_ip_asn: 4.581702112516481e-07
+  smtp_ip_reputation_score: 0.0023823909534173
+  request_type: none
+  ssl_validity_status: valid
+  site_visual_similarity_to_known_brand: 0.0762394985801524
+  token_validation_success: 1
+
+Total active detection signals: 31
+--------------------------------------------------
+
+=== EMAIL D73 ===
+SENDER SIGNALS:
+  sender_domain_reputation_score: 0.0165885912085067
+  sender_temp_email_likelihood: 2.360026263766609e-07
+  reply_path_reputation_Score: 6.364788166625639e-14
+  sender_name_similarity_to_vip: 0.0759086913986817
+
+CONTENT SIGNALS:
+  urgency_keywords_present: 0.6489228
+  content_spam_score: 6.913302680939696e-16
+
+URL/DOMAIN SIGNALS:
+  domain_tech_stack_match_score: 1.0
+  url_reputation_score: 2.98298301927302e-05
+  url_rendering_behavior_score: 0.0502398864481321
+
+AUTHENTICATION SIGNALS:
+  spf_result: pass
+  dkim_result: none
+  dmarc_result: fail
+  reverse_dns_valid: 1
+  tls_version: TLS 1.1
+
+OTHER SIGNALS:
+  unique_parent_process_names: [""]
+  return_path_known_malicious: 1
+  return_path_reputation_score: 1.0707179114315621e-08
+  smtp_ip_geo: 0.6786264933327881
+  smtp_ip_asn: 0.3197823500103804
+  smtp_ip_reputation_score: 0.024388929996554
+  request_type: urgent_callback
+  ssl_validity_status: valid
+  site_visual_similarity_to_known_brand: 0.0004497027811567
+  token_validation_success: 1
+
+Total active detection signals: 24
+--------------------------------------------------
+
+=== EMAIL D74 ===
+SENDER SIGNALS:
+  sender_domain_reputation_score: 6.785753138274066e-11
+  sender_spoof_detected: 1
+  sender_temp_email_likelihood: 6.361233460110978e-10
+  reply_path_reputation_Score: 5.240141657007641e-07
+  sender_name_similarity_to_vip: 2.247280088182964e-11
+
+ATTACHMENT SIGNALS:
+  total_embedded_file_count: 2
+
+CONTENT SIGNALS:
+  urgency_keywords_present: 0.9082923
+  content_spam_score: 0.0291219420260706
+
+URL/DOMAIN SIGNALS:
+  total_links_detected: 1
+  url_reputation_score: 0.0039080939938532
+  url_rendering_behavior_score: 0.0015115222758268
+
+AUTHENTICATION SIGNALS:
+  spf_result: pass
+  dkim_result: policy
+  dmarc_result: none
+  reverse_dns_valid: 1
+  tls_version: TLS 1.3
+
+OTHER SIGNALS:
+  max_metadata_suspicious_score: 0.011846994855737
+  max_behavioral_sandbox_score: 0.042393217694157
+  max_amsi_suspicion_score: 1.268226688076473e-06
+  any_network_call_on_open: 1
+  max_exfiltration_behavior_score: 0.3645265016538255
+  max_suspicious_string_entropy_score: 4
+  max_sandbox_execution_time: 2.052001302703255e-35
+  unique_parent_process_names: [""]
+  return_path_reputation_score: 0.0007174358207703
+  smtp_ip_geo: 0.0082386204052244
+  smtp_ip_asn: 0.1704485743991598
+  smtp_ip_reputation_score: 0.082719032784054
+  request_type: none
+  ssl_validity_status: valid
+  site_visual_similarity_to_known_brand: 1.6135353635346182e-30
+  token_validation_success: 1
+
+Total active detection signals: 32
+--------------------------------------------------
+
+=== EMAIL D75 ===
+SENDER SIGNALS:
+  sender_domain_reputation_score: 0.0012101254088779
+  sender_temp_email_likelihood: 0.0031637613446049
+  reply_path_reputation_Score: 2.046604483124398e-06
+  sender_name_similarity_to_vip: 0.1761991425604699
+
+CONTENT SIGNALS:
+  urgency_keywords_present: 0.0903984
+  content_spam_score: 0.0058955481890373
+
+URL/DOMAIN SIGNALS:
+  domain_tech_stack_match_score: 1.0
+  url_reputation_score: 7.253931332736045e-07
+  url_rendering_behavior_score: 9.936153784030501e-14
+  link_rewritten_through_redirector: 1
+
+AUTHENTICATION SIGNALS:
+  spf_result: fail
+  dkim_result: fail
+  dmarc_result: none
+  reverse_dns_valid: 1
+  tls_version: TLS 1.0
+
+OTHER SIGNALS:
+  unique_parent_process_names: [""]
+  return_path_reputation_score: 6.670816725116246e-08
+  smtp_ip_geo: 0.0024130536898252
+  smtp_ip_asn: 0.0671489397369137
+  smtp_ip_reputation_score: 3.584851577029149e-08
+  request_type: link_click
+  ssl_validity_status: valid
+  site_visual_similarity_to_known_brand: 0.4155004490799555
+  token_validation_success: 1
+
+Total active detection signals: 24
+--------------------------------------------------
+
+=== SUMMARY COMPARISON TABLE ===
+
+Key Detection Signals Summary:
+--------------------------------------------------------------------------------
+Data   sender_known_malicios  sender_domain_reputation_score  malicious_attachment_Count  total_yara_match_count  total_ioc_count  content_spam_score  url_Count  final_url_known_malicious spf_result dkim_result dmarc_result
+  D71                      0                    8.589982e-03                           0                       0                0        6.679846e-08          0                          0       fail      policy         fail
+  D72                      0                    1.801553e-01                           0                       0                2        2.164813e-04          0                          0       pass        pass         none
+  D73                      0                    1.658859e-02                           0                       0                0        6.913303e-16          0                          0       pass        none         fail
+  D74                      0                    6.785753e-11                           0                       0                0        2.912194e-02          0                          0       pass      policy         none
+  D75                      0                    1.210125e-03                           0                       0                0        5.895548e-03          0                          0       fail        fail         none
+
+================================================================================
+Analysis complete. Full data available in:
+- extracted_D71_D75_data.csv
+- extracted_D71_D75_data.xlsx

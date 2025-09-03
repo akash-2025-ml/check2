@@ -1,0 +1,174 @@
+EMAIL CLASSIFICATION DATA ANALYSIS - D81 to D85
+==================================================
+
+Analysis Date: 2025-09-03
+Source File: 001.xlsx
+Records Analyzed: 5
+Detection Signals: 68
+
+D81:
+  Active Signals: 32/68
+  Signal Details:
+    Analysis_of_the_qrcode_if_present: 1
+    any_active_x_objects_detected: 1
+    content_spam_score: 2.695812144739391e-15
+    dkim_result: neutral
+    dmarc_result: none
+    domain_known_malicious: 1
+    domain_tech_stack_match_score: 1.0
+    max_amsi_suspicion_score: 0.0715144557313741
+    max_behavioral_sandbox_score: 7.646008728041442e-06
+    max_exfiltration_behavior_score: 0.8203238579452351
+    max_metadata_suspicious_score: 0.6408472675920311
+    max_sandbox_execution_time: 6.365269105952364e-20
+    max_suspicious_string_entropy_score: 4
+    reply_path_reputation_Score: 0.0058343245579664
+    request_type: none
+    return_path_reputation_score: 0.0766293498552114
+    reverse_dns_valid: 1
+    sender_domain_reputation_score: 0.2483219625938046
+    sender_name_similarity_to_vip: 1.574886091462025e-06
+    sender_temp_email_likelihood: 0.0248493460661603
+    site_visual_similarity_to_known_brand: 1.101456130651497e-06
+    smtp_ip_asn: 3.122969727709497e-05
+    smtp_ip_geo: 0.902482289044645
+    smtp_ip_reputation_score: 0.0023641734760749
+    spf_result: softfail
+    ssl_validity_status: valid
+    tls_version: TLS 1.3
+    token_validation_success: 1
+    unique_parent_process_names: [""]
+    urgency_keywords_present: 0.6240876
+    url_rendering_behavior_score: 0.0040715897877847
+    url_reputation_score: 0.0062702355600082
+
+D82:
+  Active Signals: 24/68
+  Signal Details:
+    content_spam_score: 0.0566031183462296
+    dkim_result: none
+    dmarc_result: none
+    domain_tech_stack_match_score: 0.5
+    reply_path_reputation_Score: 0.0011388313528764
+    request_type: invoice_verification
+    return_path_reputation_score: 0.2111398646030504
+    reverse_dns_valid: 1
+    sender_domain_reputation_score: 3.750997439368112e-05
+    sender_known_malicios: 1
+    sender_name_similarity_to_vip: 0.0608571440444487
+    sender_temp_email_likelihood: 0.0130666878227645
+    site_visual_similarity_to_known_brand: 2.830019902891332e-12
+    smtp_ip_asn: 0.0049865356832392
+    smtp_ip_geo: 0.1211311005748369
+    smtp_ip_reputation_score: 0.0282080867641709
+    spf_result: pass
+    ssl_validity_status: valid
+    tls_version: SSL
+    token_validation_success: 1
+    unique_parent_process_names: [""]
+    urgency_keywords_present: 0.7725845
+    url_rendering_behavior_score: 3.48948631464622e-11
+    url_reputation_score: 1.669902749803943e-07
+
+D83:
+  Active Signals: 33/68
+  Signal Details:
+    Analysis_of_the_qrcode_if_present: 1
+    any_exploit_pattern_detected: 1
+    content_spam_score: 1.199638332918482e-12
+    dkim_result: none
+    dmarc_result: fail
+    max_amsi_suspicion_score: 3.319305335038757e-15
+    max_behavioral_sandbox_score: 0.0631367166254444
+    max_exfiltration_behavior_score: 0.4161021277006042
+    max_metadata_suspicious_score: 0.0578822617297744
+    max_sandbox_execution_time: 5.458962595037197e-05
+    max_suspicious_string_entropy_score: 4
+    reply_path_reputation_Score: 3.926301389847079e-06
+    request_type: none
+    return_path_known_malicious: 1
+    return_path_reputation_score: 0.2436423779644232
+    reverse_dns_valid: 1
+    sender_domain_reputation_score: 0.0783507544046748
+    sender_name_similarity_to_vip: 0.7933520513534554
+    sender_temp_email_likelihood: 0.0015561460948416
+    site_visual_similarity_to_known_brand: 3.643070741414294e-06
+    smtp_ip_asn: 0.0002379152842209
+    smtp_ip_geo: 1.474166211724707e-05
+    smtp_ip_reputation_score: 6.301216892549777e-07
+    spf_result: pass
+    ssl_validity_status: expired
+    tls_version: TLS 1.3
+    token_validation_success: 1
+    total_components_detected_malicious: 4
+    unique_parent_process_names: [""]
+    unscannable_attachment_present: 1
+    urgency_keywords_present: 0.7988761
+    url_rendering_behavior_score: 1.917257668858327e-06
+    url_reputation_score: 0.112129601977146
+
+D84:
+  Active Signals: 32/68
+  Signal Details:
+    Analysis_of_the_qrcode_if_present: 1
+    content_spam_score: 6.134735151396531e-05
+    dkim_result: policy
+    dmarc_result: permerror
+    domain_tech_stack_match_score: 0.5
+    max_amsi_suspicion_score: 0.2013158597187135
+    max_behavioral_sandbox_score: 0.1951561690272328
+    max_exfiltration_behavior_score: 0.101609164823058
+    max_metadata_suspicious_score: 0.0500249203416921
+    max_sandbox_execution_time: 4.102792576545843e-118
+    max_suspicious_string_entropy_score: 4
+    reply_path_reputation_Score: 0.3233670789632597
+    request_type: none
+    return_path_reputation_score: 0.1274234811936423
+    reverse_dns_valid: 1
+    sender_domain_reputation_score: 0.1684804651744981
+    sender_name_similarity_to_vip: 3.7415660098847143e-08
+    sender_temp_email_likelihood: 0.3723892713470972
+    site_visual_similarity_to_known_brand: 0.0695135580112533
+    smtp_ip_asn: 0.6668250712208507
+    smtp_ip_geo: 0.43251119648816
+    smtp_ip_reputation_score: 0.2613165067225291
+    spf_result: fail
+    ssl_validity_status: valid
+    tls_version: TLS 1.2
+    token_validation_success: 1
+    total_components_detected_malicious: 5
+    total_links_detected: 2
+    unique_parent_process_names: [""]
+    urgency_keywords_present: 0.0266962
+    url_rendering_behavior_score: 0.6205265522233007
+    url_reputation_score: 0.0457123798677285
+
+D85:
+  Active Signals: 25/68
+  Signal Details:
+    Analysis_of_the_qrcode_if_present: 1
+    content_spam_score: 4.367064848072719e-06
+    dkim_result: fail
+    dmarc_enforced: 1
+    dmarc_result: none
+    domain_tech_stack_match_score: 0.5
+    reply_path_reputation_Score: 0.3293389427709218
+    request_type: wire_transfer
+    return_path_reputation_score: 3.2196159689304e-14
+    reverse_dns_valid: 1
+    sender_domain_reputation_score: 0.2729613809385512
+    sender_name_similarity_to_vip: 0.0145726627479751
+    sender_temp_email_likelihood: 0.0005828553109682
+    site_visual_similarity_to_known_brand: 0.0632644164188738
+    smtp_ip_asn: 0.0088020349113323
+    smtp_ip_geo: 0.006162497512544
+    smtp_ip_reputation_score: 4.134442028553112e-06
+    spf_result: fail
+    ssl_validity_status: mismatch
+    tls_version: TLS 1.1
+    token_validation_success: 1
+    unique_parent_process_names: [""]
+    urgency_keywords_present: 0.6980031
+    url_rendering_behavior_score: 8.749357955851011e-06
+    url_reputation_score: 2.354024275239405e-07
+

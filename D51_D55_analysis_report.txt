@@ -1,0 +1,486 @@
+EMAIL CLASSIFICATION DATA - DETAILED ANALYSIS
+================================================================================
+
+Analysis Date: 2025-09-03 08:57:41
+Email IDs Analyzed: D51, D52, D53, D54, D55
+Total Detection Signals: 68
+
+SIGNAL VALUES BY EMAIL ID:
+--------------------------------------------------
+
+sender_known_malicios:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+sender_domain_reputation_score:
+  D51: 0.0794595378994995
+  D52: 0.0173700421329062
+  D53: 0.0242349741563886
+  D54: 0.6702564751129455
+  D55: 0.8604184198046324
+
+sender_spoof_detected:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+sender_temp_email_likelihood:
+  D51: 0.0325990699318426
+  D52: 0.0391360482271703
+  D53: 0.0103258437876376
+  D54: 0.085048604999192
+  D55: 5.933094592696501e-07
+
+dmarc_enforced:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+packer_detected:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+any_file_hash_malicious:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+max_metadata_suspicious_score:
+  D51: 0.0036303809543778
+  D52: 0.0
+  D53: 0.0
+  D54: 0.0
+  D55: 0.0
+
+malicious_attachment_Count:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+has_executable_attachment:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+unscannable_attachment_present:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+total_yara_match_count:
+  D51: 2
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+total_ioc_count:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+max_behavioral_sandbox_score:
+  D51: 0.4280589782350349
+  D52: 0.0
+  D53: 0.0
+  D54: 0.0
+  D55: 0.0
+
+max_amsi_suspicion_score:
+  D51: 0.0599808388907554
+  D52: 0.0
+  D53: 0.0
+  D54: 0.0
+  D55: 0.0
+
+any_macro_enabled_document:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+any_vbscript_javascript_detected:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+any_active_x_objects_detected:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+any_network_call_on_open:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+max_exfiltration_behavior_score:
+  D51: 0.6759779445917328
+  D52: 0.0
+  D53: 0.0
+  D54: 0.0
+  D55: 0.0
+
+any_exploit_pattern_detected:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+total_embedded_file_count:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+max_suspicious_string_entropy_score:
+  D51: 4
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+max_sandbox_execution_time:
+  D51: 1.046854451721701e-60
+  D52: 0.0
+  D53: 0.0
+  D54: 0.0
+  D55: 0.0
+
+unique_parent_process_names:
+  D51: [""]
+  D52: [""]
+  D53: [""]
+  D54: [""]
+  D55: [""]
+
+return_path_mismatch_with_from:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+return_path_known_malicious:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+return_path_reputation_score:
+  D51: 0.1054192688909151
+  D52: 1.630401838125831e-10
+  D53: 1.670326980523066e-05
+  D54: 0.0905346043344741
+  D55: 0.2034953179232166
+
+reply_path_known_malicious:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+reply_path_diff_from_sender:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+reply_path_reputation_Score:
+  D51: 0.0296776749297683
+  D52: 0.7985440365822634
+  D53: 1.353864804264748e-09
+  D54: 0.0101422037245333
+  D55: 0.0011211462750381
+
+smtp_ip_known_malicious:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+smtp_ip_geo:
+  D51: 0.1249512880691238
+  D52: 0.0038259770178116
+  D53: 0.5612716203479012
+  D54: 0.1222087025865796
+  D55: 0.0006222977793293
+
+smtp_ip_asn:
+  D51: 0.2117037560150987
+  D52: 0.1796771764820207
+  D53: 0.0925346903145606
+  D54: 0.0017674522525485
+  D55: 0.0014156862944132
+
+smtp_ip_reputation_score:
+  D51: 0.0025830958156016
+  D52: 2.154888646400502e-05
+  D53: 5.993162454573465e-06
+  D54: 0.0130027192075678
+  D55: 0.1155863556364949
+
+domain_known_malicious:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+url_Count:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+dna_morphing_detected:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+domain_tech_stack_match_score:
+  D51: 0.5
+  D52: 0.5
+  D53: 0.5
+  D54: 1.0
+  D55: 0.0
+
+is_high_risk_role_targeted:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+sender_name_similarity_to_vip:
+  D51: 0.0347893469065663
+  D52: 1.666804815255263e-13
+  D53: 5.938050274485153e-11
+  D54: 0.0002537765983166
+  D55: 0.0139543011627302
+
+urgency_keywords_present:
+  D51: 0.240104
+  D52: 0.7846875
+  D53: 0.194199
+  D54: 0.9179083
+  D55: 0.5566569
+
+request_type:
+  D51: none
+  D52: none
+  D53: none
+  D54: gift_card_request
+  D55: bank_detail_update
+
+content_spam_score:
+  D51: 0.7222596620444471
+  D52: 1.0846045022851221e-19
+  D53: 0.0052731499153131
+  D54: 0.000311243081113
+  D55: 0.2417770995848808
+
+user_marked_as_spam_before:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+bulk_message_indicator:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+unsubscribe_link_present:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+marketing-keywords_detected:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+html_text_ratio:
+  D51: 0.0
+  D52: 0.0
+  D53: 0.0
+  D54: 0.0
+  D55: 0.0
+
+image_only_email:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+spf_result:
+  D51: pass
+  D52: fail
+  D53: fail
+  D54: pass
+  D55: fail
+
+dkim_result:
+  D51: policy
+  D52: fail
+  D53: pass
+  D54: pass
+  D55: temperror
+
+dmarc_result:
+  D51: none
+  D52: pass
+  D53: fail
+  D54: none
+  D55: none
+
+reverse_dns_valid:
+  D51: 1
+  D52: 1
+  D53: 1
+  D54: 1
+  D55: 1
+
+tls_version:
+  D51: TLS 1.3
+  D52: TLS 1.2
+  D53: TLS 1.2
+  D54: TLS 1.3
+  D55: TLS 1.3
+
+total_links_detected:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 1
+  D55: 2
+
+url_shortener_detected:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+url_redirect_chain_length:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+final_url_known_malicious:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+url_decoded_spoof_detected:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+url_reputation_score:
+  D51: 1.818394185161837e-06
+  D52: 9.516725698994112e-05
+  D53: 2.115588142235164e-09
+  D54: 0.2228229773129406
+  D55: 0.0014847552267534
+
+ssl_validity_status:
+  D51: expired
+  D52: valid
+  D53: self signed
+  D54: expired
+  D55: expired
+
+site_visual_similarity_to_known_brand:
+  D51: 0.0001706984899519
+  D52: 0.6677996918882062
+  D53: 5.670547756438404e-08
+  D54: 0.0228166974863563
+  D55: 1.627538269763804e-06
+
+url_rendering_behavior_score:
+  D51: 0.0973887656315356
+  D52: 6.3428305949784535e-15
+  D53: 0.0174372138746829
+  D54: 0.0006329717438041
+  D55: 6.599538207683186e-11
+
+link_rewritten_through_redirector:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+token_validation_success:
+  D51: 1
+  D52: 1
+  D53: 1
+  D54: 1
+  D55: 1
+
+total_components_detected_malicious:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+
+Analysis_of_the_qrcode_if_present:
+  D51: 0
+  D52: 0
+  D53: 0
+  D54: 0
+  D55: 0
+

@@ -1,0 +1,12 @@
+EMAIL DATA EXTRACTION REPORT - D76 to D80
+==================================================
+Extraction Date: 2025-09-03 09:51:42
+Source File: 001.xlsx
+Total Emails Extracted: 5
+Total Detection Signals: 68
+
+D76: 31 active signals out of 68
+D77: 31 active signals out of 68
+D78: 25 active signals out of 68
+D79: 32 active signals out of 68
+D80: 30 active signals out of 68

@@ -1,0 +1,84 @@
+COMPLETE SIGNAL DATA FOR D91-D95
+====================================================================================================
+Data                                                 D91       D92                     D93              D94       D95
+sender_known_malicios                                  0         0                       0                0         0
+sender_domain_reputation_score                  0.035037  0.000202                0.250495              0.0  0.643931
+sender_spoof_detected                                  0         0                       0                0         0
+sender_temp_email_likelihood                    0.104974   0.00543                0.001552              0.0  0.011497
+dmarc_enforced                                         0         0                       0                0         0
+packer_detected                                        0         0                       0                0         0
+any_file_hash_malicious                                0         0                       0                0         0
+max_metadata_suspicious_score                   0.385122       0.0                     0.0         0.017946  0.353773
+malicious_attachment_Count                             0         0                       0                0         0
+has_executable_attachment                              0         0                       0                0         0
+unscannable_attachment_present                         0         0                       0                0         0
+total_yara_match_count                                 0         0                       0                0         0
+total_ioc_count                                        0         0                       0                4         0
+max_behavioral_sandbox_score                    0.178442       0.0                     0.0         0.274306   0.56789
+max_amsi_suspicion_score                         0.03742       0.0                     0.0              0.0  0.000642
+any_macro_enabled_document                             0         0                       0                0         0
+any_vbscript_javascript_detected                       0         0                       0                0         0
+any_active_x_objects_detected                          0         0                       0                0         0
+any_network_call_on_open                               0         0                       0                0         0
+max_exfiltration_behavior_score                 0.942947       0.0                     0.0         0.552052  0.047184
+any_exploit_pattern_detected                           0         0                       0                1         0
+total_embedded_file_count                              0         0                       0                0         0
+max_suspicious_string_entropy_score                    4         0                       0                6         5
+max_sandbox_execution_time                           0.0       0.0                     0.0              0.0       0.0
+unique_parent_process_names                         [""]      [""]                    [""]             [""]      [""]
+return_path_mismatch_with_from                         0         0                       0                0         0
+return_path_known_malicious                            0         0                       0                0         0
+return_path_reputation_score                    0.960823  0.570641                     0.0         0.000001  0.351446
+reply_path_known_malicious                             0         0                       0                0         0
+reply_path_diff_from_sender                            0         0                       0                0         0
+reply_path_reputation_Score                     0.001916  0.000021                0.014765         0.000004  0.277274
+smtp_ip_known_malicious                                0         0                       0                0         0
+smtp_ip_geo                                      0.00804  0.020388                 0.01245          0.00997  0.001721
+smtp_ip_asn                                     0.327493  0.001326                0.002388              0.0  0.067981
+smtp_ip_reputation_score                        0.336859  0.000303                0.062083         0.010093  0.038877
+domain_known_malicious                                 0         0                       0                0         0
+url_Count                                              0         0                       0                2         0
+dna_morphing_detected                                  0         0                       0                0         0
+domain_tech_stack_match_score                        0.5       1.0                     1.0              1.0       1.0
+is_high_risk_role_targeted                             0         0                       0                0         0
+sender_name_similarity_to_vip                   0.190243  0.214775                 0.00042              0.0  0.016585
+urgency_keywords_present                        0.234408   0.13353                0.625688         0.828415  0.600805
+request_type                           document_download      none  sensitive_data_request  meeting_request      none
+content_spam_score                              0.080596  0.000018                0.481261         0.964109  0.336658
+user_marked_as_spam_before                             0         0                       0                0         0
+bulk_message_indicator                                 0         0                       0                0         0
+unsubscribe_link_present                               0         1                       0                0         0
+marketing-keywords_detected                            0         0                       0                0         0
+html_text_ratio                                      0.0       0.0                     0.0              0.0       0.0
+image_only_email                                       0         0                       0                0         0
+spf_result                                      softfail      fail                    pass             pass      pass
+dkim_result                                      neutral      fail                    none             fail   neutral
+dmarc_result                                        pass      pass                    fail             pass      none
+reverse_dns_valid                                      1         1                       1                1         1
+tls_version                                      TLS 1.3   TLS 1.3                 TLS 1.3          TLS 1.1   TLS 1.2
+total_links_detected                                   4         0                       2                0         2
+url_shortener_detected                                 0         0                       0                0         0
+url_redirect_chain_length                              0         0                       0                0         0
+final_url_known_malicious                              0         0                       0                0         0
+url_decoded_spoof_detected                             0         0                       0                0         0
+url_reputation_score                            0.750301  0.037097                0.000565              0.0  0.017401
+ssl_validity_status                                valid     valid                   valid            valid     valid
+site_visual_similarity_to_known_brand           0.192555  0.009387                0.012745              0.0  0.075151
+url_rendering_behavior_score                    0.377185  0.001901                0.086952         0.002156  0.049751
+link_rewritten_through_redirector                      0         0                       0                0         0
+token_validation_success                               1         1                       1                1         1
+total_components_detected_malicious                    3         5                       0                0         0
+Analysis_of_the_qrcode_if_present                      0         1                       0                0         0
+
+====================================================================================================
+SIGNAL ANALYSIS SUMMARY
+====================================================================================================
+Total signals tracked: 68
+
+Signal Categories (inferred from names):
+- Sender-related: 6 signals
+- Domain-related: 3 signals
+- URL-related: 7 signals
+- Attachment-related: 5 signals
+- Behavioral analysis: 2 signals
+- Authentication: 5 signals

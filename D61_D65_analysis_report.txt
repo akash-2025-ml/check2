@@ -1,0 +1,271 @@
+Email Classification Data Analysis
+=================================
+Extracted data for emails: D61, D62, D63, D64, D65
+Total detection signals: 68
+
+
+============================================================
+Email ID: D61
+============================================================
+
+Active Signals (24):
+----------------------------------------
+  content_spam_score: 0.0082966617213775
+  dkim_result: fail
+  dmarc_result: fail
+  domain_tech_stack_match_score: 1.0
+  reply_path_reputation_Score: 5.325074572133563e-12
+  request_type: invoice_verification
+  return_path_reputation_score: 0.7972098734227647
+  reverse_dns_valid: 1
+  sender_domain_reputation_score: 0.0336034717867469
+  sender_name_similarity_to_vip: 0.1719215506570403
+  sender_temp_email_likelihood: 0.0286010504624343
+  site_visual_similarity_to_known_brand: 0.0056873063639816
+  smtp_ip_asn: 0.0013429721800148
+  smtp_ip_geo: 0.0005037801060191
+  smtp_ip_reputation_score: 0.0006847703611507
+  spf_result: fail
+  ssl_validity_status: valid
+  tls_version: TLS 1.3
+  token_validation_success: 1
+  total_links_detected: 1
+  unique_parent_process_names: [""]
+  urgency_keywords_present: 0.5305194
+  url_rendering_behavior_score: 4.696225312402307e-05
+  url_reputation_score: 4.267602357162107e-06
+
+Inactive Signals (44):
+----------------------------------------
+  sender_known_malicios, sender_spoof_detected, dmarc_enforced
+  packer_detected, any_file_hash_malicious, max_metadata_suspicious_score
+  malicious_attachment_Count, has_executable_attachment, unscannable_attachment_present
+  total_yara_match_count, total_ioc_count, max_behavioral_sandbox_score
+  max_amsi_suspicion_score, any_macro_enabled_document, any_vbscript_javascript_detected
+  any_active_x_objects_detected, any_network_call_on_open, max_exfiltration_behavior_score
+  any_exploit_pattern_detected, total_embedded_file_count, max_suspicious_string_entropy_score
+  max_sandbox_execution_time, return_path_mismatch_with_from, return_path_known_malicious
+  reply_path_known_malicious, reply_path_diff_from_sender, smtp_ip_known_malicious
+  domain_known_malicious, url_Count, dna_morphing_detected
+  is_high_risk_role_targeted, user_marked_as_spam_before, bulk_message_indicator
+  unsubscribe_link_present, marketing-keywords_detected, html_text_ratio
+  image_only_email, url_shortener_detected, url_redirect_chain_length
+  final_url_known_malicious, url_decoded_spoof_detected, link_rewritten_through_redirector
+  total_components_detected_malicious, Analysis_of_the_qrcode_if_present
+
+============================================================
+Email ID: D62
+============================================================
+
+Active Signals (35):
+----------------------------------------
+  Analysis_of_the_qrcode_if_present: 1
+  any_network_call_on_open: 1
+  content_spam_score: 0.0087263071296006
+  dkim_result: none
+  dmarc_result: fail
+  dna_morphing_detected: 1
+  domain_tech_stack_match_score: 1.0
+  has_executable_attachment: 1
+  max_amsi_suspicion_score: 0.1986563400086128
+  max_behavioral_sandbox_score: 2.884107489112391e-07
+  max_exfiltration_behavior_score: 0.4165218426631755
+  max_metadata_suspicious_score: 0.0068547613145712
+  max_sandbox_execution_time: 7.931765582304589e-42
+  max_suspicious_string_entropy_score: 7
+  reply_path_known_malicious: 1
+  reply_path_reputation_Score: 0.0031858162477953
+  request_type: wire_transfer
+  return_path_reputation_score: 0.0057770780796505
+  reverse_dns_valid: 1
+  sender_domain_reputation_score: 2.040621762171224e-07
+  sender_name_similarity_to_vip: 0.000110282420399
+  sender_temp_email_likelihood: 0.0001573377517406
+  site_visual_similarity_to_known_brand: 0.0124777831357605
+  smtp_ip_asn: 0.0658581598114563
+  smtp_ip_geo: 0.0013730395487143
+  smtp_ip_reputation_score: 0.0011649042607173
+  spf_result: softfail
+  ssl_validity_status: expired
+  tls_version: TLS 1.2
+  token_validation_success: 1
+  total_links_detected: 1
+  unique_parent_process_names: [""]
+  urgency_keywords_present: 0.0792736
+  url_rendering_behavior_score: 0.0221085883924874
+  url_reputation_score: 0.035920607122281
+
+Inactive Signals (33):
+----------------------------------------
+  sender_known_malicios, sender_spoof_detected, dmarc_enforced
+  packer_detected, any_file_hash_malicious, malicious_attachment_Count
+  unscannable_attachment_present, total_yara_match_count, total_ioc_count
+  any_macro_enabled_document, any_vbscript_javascript_detected, any_active_x_objects_detected
+  any_exploit_pattern_detected, total_embedded_file_count, return_path_mismatch_with_from
+  return_path_known_malicious, reply_path_diff_from_sender, smtp_ip_known_malicious
+  domain_known_malicious, url_Count, is_high_risk_role_targeted
+  user_marked_as_spam_before, bulk_message_indicator, unsubscribe_link_present
+  marketing-keywords_detected, html_text_ratio, image_only_email
+  url_shortener_detected, url_redirect_chain_length, final_url_known_malicious
+  url_decoded_spoof_detected, link_rewritten_through_redirector, total_components_detected_malicious
+
+============================================================
+Email ID: D63
+============================================================
+
+Active Signals (30):
+----------------------------------------
+  content_spam_score: 0.0073306532874878
+  dkim_result: none
+  dmarc_result: fail
+  domain_tech_stack_match_score: 1.0
+  max_amsi_suspicion_score: 0.1800130288795372
+  max_behavioral_sandbox_score: 0.0603080668409646
+  max_exfiltration_behavior_score: 0.1828086888282498
+  max_metadata_suspicious_score: 0.3266637196250394
+  max_sandbox_execution_time: 1.434177243285038e-21
+  max_suspicious_string_entropy_score: 4
+  reply_path_reputation_Score: 0.0003261497231075
+  request_type: invoice_payment
+  return_path_reputation_score: 3.878148129471384e-05
+  reverse_dns_valid: 1
+  sender_domain_reputation_score: 9.663825491965505e-08
+  sender_name_similarity_to_vip: 4.833474224558105e-06
+  sender_temp_email_likelihood: 0.5128449458978883
+  site_visual_similarity_to_known_brand: 0.0027621201598186
+  smtp_ip_asn: 0.0048200329844543
+  smtp_ip_geo: 0.989206324242284
+  smtp_ip_reputation_score: 0.5137281195769962
+  spf_result: fail
+  ssl_validity_status: self signed
+  tls_version: TLS 1.2
+  token_validation_success: 1
+  total_links_detected: 1
+  unique_parent_process_names: [""]
+  urgency_keywords_present: 0.3161321
+  url_rendering_behavior_score: 0.4214437347286991
+  url_reputation_score: 0.4572747316770481
+
+Inactive Signals (38):
+----------------------------------------
+  sender_known_malicios, sender_spoof_detected, dmarc_enforced
+  packer_detected, any_file_hash_malicious, malicious_attachment_Count
+  has_executable_attachment, unscannable_attachment_present, total_yara_match_count
+  total_ioc_count, any_macro_enabled_document, any_vbscript_javascript_detected
+  any_active_x_objects_detected, any_network_call_on_open, any_exploit_pattern_detected
+  total_embedded_file_count, return_path_mismatch_with_from, return_path_known_malicious
+  reply_path_known_malicious, reply_path_diff_from_sender, smtp_ip_known_malicious
+  domain_known_malicious, url_Count, dna_morphing_detected
+  is_high_risk_role_targeted, user_marked_as_spam_before, bulk_message_indicator
+  unsubscribe_link_present, marketing-keywords_detected, html_text_ratio
+  image_only_email, url_shortener_detected, url_redirect_chain_length
+  final_url_known_malicious, url_decoded_spoof_detected, link_rewritten_through_redirector
+  total_components_detected_malicious, Analysis_of_the_qrcode_if_present
+
+============================================================
+Email ID: D64
+============================================================
+
+Active Signals (33):
+----------------------------------------
+  Analysis_of_the_qrcode_if_present: 1
+  content_spam_score: 0.0127278192407665
+  dkim_result: fail
+  dmarc_result: fail
+  domain_tech_stack_match_score: 0.5
+  max_amsi_suspicion_score: 0.1541702180289118
+  max_behavioral_sandbox_score: 0.6146225346709907
+  max_exfiltration_behavior_score: 0.4536601720252369
+  max_metadata_suspicious_score: 0.000114979599999
+  max_sandbox_execution_time: 15.58549720924683
+  max_suspicious_string_entropy_score: 4
+  packer_detected: 1
+  reply_path_reputation_Score: 5.950441217640333e-06
+  request_type: urgent_callback
+  return_path_reputation_score: 0.7272857514401774
+  reverse_dns_valid: 1
+  sender_domain_reputation_score: 0.1075214677240632
+  sender_name_similarity_to_vip: 0.0027132125757846
+  sender_temp_email_likelihood: 4.544995853338131e-08
+  site_visual_similarity_to_known_brand: 3.32240436834385e-08
+  smtp_ip_asn: 0.0004527579636337
+  smtp_ip_geo: 2.754463792849663e-06
+  smtp_ip_reputation_score: 0.1932595273139717
+  spf_result: pass
+  ssl_validity_status: self signed
+  tls_version: TLS 1.1
+  token_validation_success: 1
+  total_components_detected_malicious: 3
+  total_links_detected: 1
+  unique_parent_process_names: [""]
+  urgency_keywords_present: 0.504721
+  url_rendering_behavior_score: 0.0587286248872838
+  url_reputation_score: 0.0002386318424087
+
+Inactive Signals (35):
+----------------------------------------
+  sender_known_malicios, sender_spoof_detected, dmarc_enforced
+  any_file_hash_malicious, malicious_attachment_Count, has_executable_attachment
+  unscannable_attachment_present, total_yara_match_count, total_ioc_count
+  any_macro_enabled_document, any_vbscript_javascript_detected, any_active_x_objects_detected
+  any_network_call_on_open, any_exploit_pattern_detected, total_embedded_file_count
+  return_path_mismatch_with_from, return_path_known_malicious, reply_path_known_malicious
+  reply_path_diff_from_sender, smtp_ip_known_malicious, domain_known_malicious
+  url_Count, dna_morphing_detected, is_high_risk_role_targeted
+  user_marked_as_spam_before, bulk_message_indicator, unsubscribe_link_present
+  marketing-keywords_detected, html_text_ratio, image_only_email
+  url_shortener_detected, url_redirect_chain_length, final_url_known_malicious
+  url_decoded_spoof_detected, link_rewritten_through_redirector
+
+============================================================
+Email ID: D65
+============================================================
+
+Active Signals (30):
+----------------------------------------
+  Analysis_of_the_qrcode_if_present: 1
+  content_spam_score: 0.0049310637382701
+  dkim_result: none
+  dmarc_result: none
+  domain_tech_stack_match_score: 0.5
+  max_amsi_suspicion_score: 0.0127388827255229
+  max_behavioral_sandbox_score: 0.0100119400509492
+  max_exfiltration_behavior_score: 0.6849693338326617
+  max_metadata_suspicious_score: 0.0045896152093734
+  max_sandbox_execution_time: 1.676576278359625e-86
+  max_suspicious_string_entropy_score: 4
+  reply_path_reputation_Score: 0.008618624631306
+  request_type: vpn_or_mfa_reset
+  return_path_reputation_score: 0.0049832738154479
+  reverse_dns_valid: 1
+  sender_domain_reputation_score: 0.0008861079029402
+  sender_name_similarity_to_vip: 0.1028827459507556
+  sender_temp_email_likelihood: 4.276361477010613e-05
+  site_visual_similarity_to_known_brand: 0.0266376404886667
+  smtp_ip_asn: 0.0001883976441691
+  smtp_ip_geo: 0.0005262536316404
+  smtp_ip_reputation_score: 0.910168026231568
+  spf_result: pass
+  ssl_validity_status: valid
+  tls_version: TLS 1.1
+  token_validation_success: 1
+  unique_parent_process_names: [""]
+  urgency_keywords_present: 0.7195301
+  url_rendering_behavior_score: 0.0009790525565638
+  url_reputation_score: 0.0089572617542152
+
+Inactive Signals (38):
+----------------------------------------
+  sender_known_malicios, sender_spoof_detected, dmarc_enforced
+  packer_detected, any_file_hash_malicious, malicious_attachment_Count
+  has_executable_attachment, unscannable_attachment_present, total_yara_match_count
+  total_ioc_count, any_macro_enabled_document, any_vbscript_javascript_detected
+  any_active_x_objects_detected, any_network_call_on_open, any_exploit_pattern_detected
+  total_embedded_file_count, return_path_mismatch_with_from, return_path_known_malicious
+  reply_path_known_malicious, reply_path_diff_from_sender, smtp_ip_known_malicious
+  domain_known_malicious, url_Count, dna_morphing_detected
+  is_high_risk_role_targeted, user_marked_as_spam_before, bulk_message_indicator
+  unsubscribe_link_present, marketing-keywords_detected, html_text_ratio
+  image_only_email, total_links_detected, url_shortener_detected
+  url_redirect_chain_length, final_url_known_malicious, url_decoded_spoof_detected
+  link_rewritten_through_redirector, total_components_detected_malicious
